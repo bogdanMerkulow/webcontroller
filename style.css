@@ -1,4 +1,104 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+}
+
+* {
+    transition: 0.5s;
+}
+
+.container {
+    width: 90%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.theme_button_container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+    width: 20em;
+}
+
+.theme_button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-image: url("res/drawable/day.png");
+}
+
+.buttons {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    grid-template-columns: 80px 80px 80px 80px;
+    width: 20em;
+}
+
+.buttons button {
+    width: 70px;
+    height: 70px;
+    background: #cdcdcd;
+    margin: 5px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 13px;
+}
+
+.touchpad {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 18em;
+    height: 18em;
+    border-radius: 50%;
+    display: flex;
+    opacity: 0.5;
+    margin-bottom: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+}
+
+.touchpad_button {
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+}
+
+.mouse_buttons {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    margin: 10em auto 2vh;
+    justify-content: space-between;
+    grid-template-columns: 80px 80px;
+    width: 20em;
+}
+
+.mouse_buttons button {
+    width: 70px;
+    height: 70px;
+    background: #cdcdcd;
+    margin: 5px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 13px;
 }
