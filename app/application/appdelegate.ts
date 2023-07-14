@@ -22,7 +22,7 @@ export class AppDelegate extends Application {
             button.setBackgroundColor(this.application.getColors().SECONDARY)
             button.setTextColor(this.application.getColors().PRIMARY_TEXT)
         })
-        this.application.getByClass("touchpad_button").setBackgroundColor(this.application.getColors().ACCENT)
+        this.application.getByClass("touchpad_button").setBackgroundColor(this.application.getColors().SECONDARY)
         this.application.getByClass("theme_button").setBackgroundImage(this.application.getDrawables().CHANGE_THEME_BUTTON)
         this.application.getScrollableByClass("touchpad").setBackgroundColor(this.application.getColors().SECONDARY)
     }

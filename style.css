@@ -69,24 +69,18 @@ html, body {
     height: 18em;
     border-radius: 50%;
     display: flex;
-    opacity: 0.5;
     margin-bottom: 15vh;
     margin-left: auto;
     margin-right: auto;
     background: black;
     overflow-x: scroll;
     overflow-y: scroll;
-    justify-content: center;
-    align-items: center;
 }
 
 .touchpad_button {
-    width: 60em;
-    height: 60em;
+    width: 40em;
+    height: 40em;
     position: absolute;
-    background-position: center;
-    background-size: inherit;
-    background-image: url("res/drawable/day.png");;
 }
 
 .mouse_buttons {
